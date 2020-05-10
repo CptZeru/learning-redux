@@ -1,6 +1,6 @@
 import store from './store';
 import {bugAdded, bugResolved} from './actions'
-// import * as actions from './actionTypes';
+//https://www.youtube.com/watch?v=poQXNp9ItL4
 
 const unsubcribe = store.subscribe(() => {
     console.log("Store changed!", store.getState());
